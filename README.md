@@ -32,6 +32,11 @@ Complete spec/square_array.rb and build a method that squares all the elements o
 
 Please use an iterator and implement your own logic.  Don't use any built in array methods other than each. (collect, inject, etc.)
 
+## Bonus
+
+See if you can implement this with a higher level iterator, maybe `collect`.
+
 ## Resources
 
 * [Ruby Docs](http://www.ruby-doc.org/core-2.1.2/) - [Each Method](http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-each)
+
