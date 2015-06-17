@@ -1,14 +1,25 @@
----
-tags: arrays, iteration, conditionals
-languages: ruby
-type: todo
----
+
 
 # Square Array
 
 ## Objectives
+1. Practice iterating over an array using the `.each` method.
+2. Practice operating on each element of an array.
 
-Make a method that will square all the elements in an array.
+## Instructions
+
+You will build a method, `square_array`, that squares each element of an array of numbers and returns a new array of these squared elements. Please use an iterator and implement your own logic.  Don't use any built in array methods other than `.each`––(collect, inject, etc.)
+
+A few question you can ask yourself: 
+
+* What is the return value of calling `.each` on an array?
+* How can I operate on each element of an array and also collect or store those elements? 
+
+## Bonus
+
+Once you have the tests passing, see if you can implement this with a higher level iterator, maybe `collect`.
+
+
 
 ## Examples
 
@@ -20,17 +31,9 @@ square_array(numbers)
 
 new_numbers = [9,10,16,25]
 
-square_array(numbers)
+square_array(new_numbers)
 # => [81,100,256,625]
 ```
-
-## Instructions
-
-Complete spec/square_array.rb and build a method that squares all the elements of an array (assuming they are integers).
-
-## Notes
-
-Please use an iterator and implement your own logic.  Don't use any built in array methods other than each. (collect, inject, etc.)
 
 ## Resources
 
