@@ -8,20 +8,18 @@
 
 ## Instructions
 
-You will build a method, `square_array`, that squares each element of an array of numbers and returns a new array of these squared elements. Please use an iterator and implement your own logic.  Don't use any built in array methods other than `.each`––(collect, inject, etc.)
+You will build a method, `square_array`, that squares each element in an array of numbers and returns a new array of these squared numbers. Use an iterator and implement your own logic; *don't* use any built in array methods other than `.each` (e.g. `.collect`, `.inject`).
 
-A few question you can ask yourself: 
+A couple of questions that you can ask yourself are: 
 
 * What is the return value of calling `.each` on an array?
 * How can I operate on each element of an array and also collect or store those elements? 
 
-## Bonus
+## Advanced
 
-Once you have the tests passing, see if you can implement this with a higher level iterator, maybe `collect`.
+Once you have the tests passing, see if you can implement this with a higher level iterator such as `.collect`.
 
-
-
-## Examples
+## Expectation Examples
 
 ```ruby
 numbers = [1,2,3]
