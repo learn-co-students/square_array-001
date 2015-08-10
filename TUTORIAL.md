@@ -1,6 +1,6 @@
 # Guide to Solving and Reviewing Square Array
 
-If we look into our `square_array.rb`, we will see that our method is already been stubbed out for us and our method excepts an argument.
+If we look into our `square_array.rb`, we will see that our method has already been stubbed out for us and our method excepts an argument.
 
 Let us run the test-suite to see what our errors look like. 
 
