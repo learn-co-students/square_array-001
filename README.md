@@ -36,3 +36,5 @@ square_array(new_numbers)
 ## Resources
 
 * [Ruby Docs](http://www.ruby-doc.org/core-2.1.2/) - [Each Method](http://www.ruby-doc.org/core-2.1.2/Array.html#method-i-each)
+
+<a href='https://learn.co/lessons/square_array' data-visibility='hidden'>View this lesson on Learn.co</a>
